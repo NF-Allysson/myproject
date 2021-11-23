@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding:0%;
+    font-family:'Open Sans', sans-serif;
+}
+#menu{
+    height: 62px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.856); /* transparencia lado esquerdo*/
+    position: fixed; /* ficsaçao no topo da tela*/
+}
+li{
+    display:inline;
+}
+#menu ul li a{
+    color:gray;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 17.5px;
+    transition: background 0.3s; /* animação*/
+}
+#menu ul li a:hover{
+    background:rgb(141, 0, 0);
+}
+#cartoes{
+    width: 100vw;
+    height: 100vh; /*atençao*/ /* falar o tamanho a altura pois é em relaçao ao body por não ter altura*/
+    background:rgb(141, 0, 0);
+    display: flex; /* flexibiliza de pai para filho*/
+    justify-content: space-around; /* espaçamaneto igual e com margem*/
+    align-items: center; /* alinhamento no eixo Y ou centro */
+}
+.cartao{
+    height: 400px;
+    width: 400px;
+    background: grey;
+    border-radius: 20px; /*arrendodamento de bordas*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cartoes .cartao h2{
+    background: rgba(0, 0, 0, 0.561);
+    font-size: 30px;
+    color: white;
+}
+#cartoes .cartao a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 0, 0, 0.561);
+    display: block; /* ocupar todo espaçamento*/
+}
+footer{
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.856);  
+}
+footer p{
+    font-size: 30px;
+    color: white;
+}
+.img1{
+    background-image: url(../IMG/funcionalidade\ dos\ computadores.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+.img2{
+    background-image: url(../IMG/manutencao\ de\ codigos.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+.img3{
+    background-image: url(../IMG/manutencao\ de\ computador.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+.img1:hover{
+    background-image: linear-gradient(rgba(000, 000, 000, 0.6 ), rgba(000, 000, 000, 0.6 )), url(../IMG/funcionalidade\ dos\ computadores.jpg);
+}
+.img2:hover{
+    background-image: linear-gradient(rgba(000, 000, 000, 0.6 ), rgba(000, 000, 000, 0.6 )), url(../IMG/manutencao\ de\ codigos.jpg);
+}
+.img3:hover{
+    background-image: linear-gradient(rgba(000, 000, 000, 0.6 ), rgba(000, 000, 000, 0.6 )), url(../IMG/manutencao\ de\ computador.jpg);
+}
