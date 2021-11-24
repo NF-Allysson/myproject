@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{ /* tirar a margim e o paddim de todo css, resetando*/
+    margin: 0%;
+    padding: 0%;
+    font-family:'Open Sans', sans-serif;
+}
+body{
+    background:url(../IMG/imagem\ de\ fundo.jpg);
+}
+form{
+    height: 500px;
+    width: 500px;
+    background-color:rgba(0, 0, 0, 0.678);
+    color:white;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    margin-top: 10px;
+    backdrop-filter: blur(5px);
+}
+form label{
+    font-size: 25px;
+}
+form input{
+    width: 70%;
+    height: 40px;
+    margin: 25px;
+    border-radius: 5px;
+}
+form textarea{
+    border-radius: 5px;
+}
+form button{
+    height: 40px;
+    width: 30%;
+    background: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+form button:hover{ 
+    background:rgba(255, 255, 255, 0.603);
+}
