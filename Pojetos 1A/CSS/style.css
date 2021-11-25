@@ -88,3 +88,9 @@ footer p{
 .img3:hover{
     background-image: linear-gradient(rgba(000, 000, 000, 0.6 ), rgba(000, 000, 000, 0.6 )), url(../IMG/manutencao\ de\ computador.jpg);
 }
+h1{
+    z-index: 3;
+    text-align: center;
+    background: rgb(141, 0, 0);
+    padding-top: 80px;
+}
